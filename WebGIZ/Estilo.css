@@ -1,0 +1,19 @@
+body {
+
+    padding-top: 6em;
+
+    font-family: Calibri, Arial,
+    "Times New Roman", serif;
+
+    color: white;
+    background-color: darkseagreen }
+
+h1 {
+    font-family: Verdana, Geneva, Arial,
+    SunSans-Regular, sans-serif }
+
+ul.navbar {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    width: 9em }
