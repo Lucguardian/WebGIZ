@@ -17,3 +17,18 @@ ul.navbar {
     top: 0em;
     left: 0em;
     width: 9em }
+
+  ul.navbar li {
+    background: orange;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+
+  ul.navbar a {
+    text-decoration: none }
+
+  a:link {
+    color: blue }
+
+  a:visited {
+    color: purple }
