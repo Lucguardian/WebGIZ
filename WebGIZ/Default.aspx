@@ -10,14 +10,15 @@
     <ul class="navbar">
       <li><a href="Default.aspx">Lousa Virtual</a>
       <li><a href="Default.aspx">Mapas</a>
+      <li><a href="Tabelas.aspx">Tabela de Mapa Vetorial</a>
       <li><a href="Formulários.aspx">Formulários</a>
       <li><a href="Login.aspx">Login</a>
     </ul>
     <div>   
     	<asp:RadioButtonList ID="rblMapTools" runat="server" RepeatDirection="Horizontal">
-            <asp:ListItem Value="0">Zoom in</asp:ListItem>
-            <asp:ListItem Value="1">Zoom out</asp:ListItem>
-            <asp:ListItem Value="2" Selected="True">Pan</asp:ListItem>
+            <asp:ListItem Value="0">Aproximar</asp:ListItem>
+            <asp:ListItem Value="1">Afastar</asp:ListItem>
+            <asp:ListItem Value="2" Selected="True">Mover</asp:ListItem>
         </asp:RadioButtonList>
         <asp:ImageButton Width="640" Height="480" ID="imgMap" runat="server" OnClick="imgMap_Click" style="border: 1px solid #000;" />
     </div>
