@@ -10,8 +10,8 @@
     <ul class="navbar">
       <li><a href="Default.aspx">Lousa Virtual</a>
       <li><a href="Default.aspx">Mapas</a>
-      <li><a href="Default.aspx">Formulários</a>
-      <li><a href="Default.aspx">Login</a>
+      <li><a href="Formulários.aspx">Formulários</a>
+      <li><a href="Login.aspx">Login</a>
     </ul>
     <div>   
     	<asp:RadioButtonList ID="rblMapTools" runat="server" RepeatDirection="Horizontal">
