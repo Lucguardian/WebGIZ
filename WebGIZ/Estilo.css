@@ -1,6 +1,6 @@
 body {
 
-    padding-top: 6em;
+    padding-top: 0em;
 
     font-family: Calibri, Arial,
     "Times New Roman", serif;
@@ -13,19 +13,29 @@ h1 {
     SunSans-Regular, sans-serif }
 
 ul.navbar {
-    position: absolute;
-    top: 0em;
-    left: 0em;
-    width: 9em }
+    float: left;
+    width: 100%;
+    list-style: none;
+    background: black;
+    margin: 0;
+    padding: 0; }
 
   ul.navbar li {
-    background: orange;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
+    display: inline; }
 
   ul.navbar a {
-    text-decoration: none }
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED; }
+
+  ul li a:hover {
+    background-color:darkseagreen;
+    color: #6D6D6D;
+    border-bottom:3px solid #6D6D6D;
+}
 
   a:link {
     color: blue }

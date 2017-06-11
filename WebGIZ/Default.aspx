@@ -8,11 +8,11 @@
 <body>
 <form runat="server">
     <ul class="navbar">
-  <li><a href="WebBoard.aspx">Lousa Virtual</a>
-  <li><a href="WebBoard.aspx">Professor</a>
-  <li><a href="WebBoard.aspx">Aluno</a>
-  <li><a href="WebBoard.aspx">Links</a>
-</ul>
+      <li><a href="Default.aspx">Lousa Virtual</a>
+      <li><a href="Default.aspx">Mapas</a>
+      <li><a href="Default.aspx">Formulários</a>
+      <li><a href="Default.aspx">Login</a>
+    </ul>
     <div>   
     	<asp:RadioButtonList ID="rblMapTools" runat="server" RepeatDirection="Horizontal">
             <asp:ListItem Value="0">Zoom in</asp:ListItem>
