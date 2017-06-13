@@ -13,6 +13,7 @@
       <li><a href="Default.aspx">Lousa Virtual</a>
       <li><a href="Default.aspx">Mapas</a>
       <li><a href="Tabelas.aspx">Tabela de Mapa Vetorial</a>
+      <li><a href="Layouts.aspx">Layouts de Impressão</a>
       <li><a href="Formulários.aspx">Formulários</a>
       <li><a href="Login.aspx">Login</a>
     </ul>

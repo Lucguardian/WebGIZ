@@ -1,6 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" >
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Layouts.aspx.cs" Inherits="Layouts" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
    <title>WebGIZ - criando um mapa interativo em ASP.NET 2.0 usando SharpMap</title>
    <link rel="stylesheet" href="Estilo.css">
